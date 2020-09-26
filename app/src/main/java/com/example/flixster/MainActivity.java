@@ -1,10 +1,11 @@
 package com.example.flixster;
+
+import android.os.Bundle;
+import android.util.Log;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-// import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.util.Log;
 
 import com.codepath.asynchttpclient.AsyncHttpClient;
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
@@ -19,6 +20,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import okhttp3.Headers;
+
+// import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
